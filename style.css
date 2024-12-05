@@ -571,8 +571,11 @@
 
     .line-container {
         top: -20%;
-        left: 50%;
-        transform: translate(-50%);
+        /* left: 0;
+        right: 0; */
+        left: 0%;
+        right: 0%;
+        transform: translate(0);
         padding: 25px 40px;
         border-radius: 50px;
         box-shadow: 10px 10px #d0b489, 0 4px 6px #d0b489;
@@ -635,6 +638,17 @@
 
     .second-logo {
         width: 90%;
+    }
+
+    .second-icon-box {
+        display: inline-block;
+        background-color: #d0b489;
+        color: #1d2e51;
+        padding: 10px 10px;
+        text-align: center;
+        border-radius: 25px;
+        box-shadow: 10px 10px white, 4px 6px white;
+        max-width: 730px;
     }
 
     .alerm-clock-logo-box-title {
