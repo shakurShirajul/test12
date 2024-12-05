@@ -323,6 +323,7 @@
     text-align: center;
     border-radius: 25px;
     box-shadow: 10px 10px white, 4px 6px white;
+    max-width: 730px;
 
 }
 
@@ -536,7 +537,7 @@
 
 @media screen and (min-width: 770px) and (max-width: 1024px) {
 
- .banner-container,
+    .banner-container,
     .line-section,
     .input-section,
     .first-text-section,
@@ -552,14 +553,17 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    .logo-container img{
+
+    .logo-container img {
         width: 200px;
         height: 150px;
     }
-    .banner-text-content{
+
+    .banner-text-content {
         left: 0%;
         transform: translateX(0);
     }
+
     #banner-title,
     #line-text-title {
         font-size: 30px;
@@ -648,7 +652,7 @@
     .map-icon-logo-box-description {
         font-size: 30px;
     }
-} 
+}
 
 
 @media only screen and (max-width: 768px) {
@@ -669,14 +673,17 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    .logo-container img{
+
+    .logo-container img {
         width: 200px;
         height: 150px;
     }
-    .banner-text-content{
+
+    .banner-text-content {
         left: 0%;
         transform: translateX(0);
     }
+
     #banner-title,
     #line-text-title {
         font-size: 30px;
@@ -684,8 +691,11 @@
 
     .line-container {
         top: -20%;
-        left: 50%;
-        transform: translate(-50%);
+        /* left: 0;
+        right: 0; */
+        left: 0%;
+        right: 0%;
+        transform: translate(0);
         padding: 25px 40px;
         border-radius: 50px;
         box-shadow: 10px 10px #d0b489, 0 4px 6px #d0b489;
@@ -748,6 +758,17 @@
 
     .second-logo {
         width: 90%;
+    }
+
+    .second-icon-box {
+        display: inline-block;
+        background-color: #d0b489;
+        color: #1d2e51;
+        padding: 10px 10px;
+        text-align: center;
+        border-radius: 25px;
+        box-shadow: 10px 10px white, 4px 6px white;
+        max-width: 730px;
     }
 
     .alerm-clock-logo-box-title {
